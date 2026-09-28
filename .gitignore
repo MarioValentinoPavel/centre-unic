@@ -1,0 +1,3 @@
+assets/**/_*.txt
+assets/web/*.html
+*.tmp
