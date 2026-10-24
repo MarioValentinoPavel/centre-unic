@@ -78,18 +78,22 @@ function morphTo(seed) {
 gsap.to('#printCanvas', { rotation: 4, duration: 9, yoyo: true, repeat: -1, ease: 'sine.inOut' });
 
 /* ---------- cada secció canvia l'empremta ---------- */
+let activeBlock = $('.block');
+const printMeta = () => { $('#printNo').textContent = t('print.no', { n: activeBlock.dataset.no }); $('#printCap').textContent = activeBlock.dataset.cap; };
+printMeta();
 $$('.block').forEach(b => {
   ScrollTrigger.create({
     trigger: b, start: 'top 55%', end: 'bottom 55%',
     onToggle: s => {
       if (!s.isActive) return;
+      activeBlock = b;
       morphTo(+b.dataset.seed);
-      $('#printNo').textContent = 'Empremta nº ' + b.dataset.no;
       gsap.fromTo('#printCap', { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: .7, ease: 'power2.out' });
-      $('#printCap').textContent = b.dataset.cap;
+      printMeta();
     }
   });
 });
+document.addEventListener('langchange', () => { printMeta(); requestAnimationFrame(() => ScrollTrigger.refresh()); });
 
 /* ---------- la teva empremta ---------- */
 (function gen() {
@@ -99,6 +103,20 @@ $$('.block').forEach(b => {
   render();
   addEventListener('resize', () => { g = setupCanvas(cv); render(); });
   let timer;
+  function texts() {
+    const name = input.value.trim();
+    if (name) {
+      const crests = 28 + hash(name.toLowerCase()) % 13;
+      out.textContent = t('g.out', { name, n: crests });
+      cta.href = 'https://wa.me/34635857503?text=' + encodeURIComponent(t('g.msg', { name }));
+      cta.textContent = t('g.cta', { name });
+    } else {
+      out.textContent = t('g.out0');
+      cta.href = 'https://appcentreunic.viday.es'; cta.textContent = t('g.cta0');
+    }
+  }
+  texts();
+  document.addEventListener('langchange', texts);
   input.addEventListener('input', () => {
     clearTimeout(timer);
     timer = setTimeout(() => {
@@ -107,15 +125,7 @@ $$('.block').forEach(b => {
       prev = cur; cur = makePrint(seed); st.k = 0;
       tw && tw.kill(); tw = gsap.to(st, { k: 1, duration: 1.2, ease: 'power3.inOut', onUpdate: render });
       if (innerWidth > 900) morphTo(seed);
-      if (name) {
-        const crests = 28 + seed % 13;
-        out.textContent = `L'empremta de ${name}: ${crests} crestes i cap d'igual al món. La teva pell també és així: mereix un diagnòstic fet només per a tu.`;
-        cta.href = 'https://wa.me/34635857503?text=' + encodeURIComponent(`Hola Centre Únic, soc ${name}. Voldria reservar un diagnòstic de pell.`);
-        cta.textContent = `Reserva el diagnòstic de ${name}`;
-      } else {
-        out.textContent = 'Cada nom dibuixa una empremta diferent. Com la teva pell.';
-        cta.href = 'https://appcentreunic.viday.es'; cta.textContent = 'Reserva el diagnòstic de la teva pell';
-      }
+      texts();
     }, 180);
   });
 })();
