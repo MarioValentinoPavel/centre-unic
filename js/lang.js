@@ -8,7 +8,7 @@ window.DICT = {
     'cap1': 'La pell de cada persona és irrepetible.', 'cap2': 'Fisiologia: la pell és un òrgan viu, no una superfície.', 'cap3': 'Al principi, et veiem cada setmana.',
     'cap4': "Cada tractament parteix d'un estudi de la pell.", 'cap5': 'Acompanyar també és tractar.', 'cap6': 'En primera persona.',
     'cap7': 'Escriu el teu nom: aquesta empremta només és teva.', 'cap8': '46 persones, 46 pells, 4,9 estrelles.',
-    'hero.k': 'Centre fisiològic de la pell · Blanes', 'hero.t': 'Única.',
+    'hero.k': 'Centre fisiològic de la pell · Blanes', 'hero.t': 'Únic.',
     'hero.l': "Tractaments de pell fets a mida amb el mètode The Natural One. Primer estudiem com és <em>la teva</em> pell; després la tractem, setmana a setmana, fins que recupera l'equilibri.",
     'hero.cta': "Reserva l'estudi de la teva pell", 'hero.rate': '<b>4,9</b> ★ · 46 ressenyes',
     'man.k': 'La nostra manera',

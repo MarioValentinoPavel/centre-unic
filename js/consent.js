@@ -3,7 +3,9 @@
    Qualsevol element amb [data-cc-open] torna a obrir la configuració.
    Els mapes (.cc-map[data-src]) només es carreguen si s'accepten els continguts externs. */
 (function () {
-  const KEY = 'centreunic-consent', MAX = 365 * 864e5;
+  // els prototips comparteixen domini a github.io: cada web desa la seva pròpia elecció
+  const dir = location.pathname.split('/').filter(Boolean); if (dir.length && dir[dir.length - 1].includes('.')) dir.pop();
+  const KEY = 'centreunic-consent' + (/github\.io$/.test(location.hostname) && dir.length ? '-' + dir.join('-') : ''), MAX = 365 * 864e5;
   const TX = {
     ca: {
       label: 'Avís de cookies', title: 'Cookies i privacitat',
