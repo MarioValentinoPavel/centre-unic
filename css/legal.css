@@ -31,3 +31,8 @@ mark{background:#f6dd8a;color:#2b2b2b;padding:0 .25em;border-radius:3px}
 .legal-links a{color:var(--mute)}
 .legal-links a:hover{color:var(--ink)}
 @media (max-width:600px){.lg-brand{display:none}}
+.lg-h3{font-family:var(--f-sans);font-weight:600;font-size:1rem;margin:1.4rem 0 .2rem}
+.lg-table th{word-break:break-word}
+.lg-btn{padding:.75em 1.3em;border:0;border-radius:8px;background:var(--btn);color:var(--btn-ink);font:500 .92rem var(--f-sans);cursor:pointer}
+.lg-btn:hover{background:var(--accent);color:#fff}
+.legal-links .cc-open{font-size:inherit}

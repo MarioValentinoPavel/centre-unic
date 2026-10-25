@@ -53,7 +53,7 @@ window.DICT = {
     'vi.wa': 'https://wa.me/34635857503?text=Hola%20Centre%20%C3%9Anic%2C%20voldria%20demanar%20hora',
     'alt.onco': "Tractament facial d'estètica oncològica", 'alt.montse': 'Montse Gayete amb productes del centre', 'alt.team': "L'equip de Centre Únic",
     'foot': 'Centre Únic · Centre fisiològic de la pell · Blanes',
-    'l.avis': 'Avís legal', 'l.priv': 'Privacitat', 'l.cook': 'Cookies'
+    'l.avis': 'Avís legal', 'l.priv': 'Privacitat', 'l.cook': 'Cookies', 'l.cfg': 'Configurar cookies'
   },
   es: {
     'meta.title': 'Centre Únic · Centro fisiológico de la piel · Blanes',
@@ -108,7 +108,7 @@ window.DICT = {
     'vi.wa': 'https://wa.me/34635857503?text=Hola%20Centre%20%C3%9Anic%2C%20quisiera%20pedir%20cita',
     'alt.onco': 'Tratamiento facial de estética oncológica', 'alt.montse': 'Montse Gayete con productos del centro', 'alt.team': 'El equipo de Centre Únic',
     'foot': 'Centre Únic · Centro fisiológico de la piel · Blanes',
-    'l.avis': 'Aviso legal', 'l.priv': 'Privacidad', 'l.cook': 'Cookies'
+    'l.avis': 'Aviso legal', 'l.priv': 'Privacidad', 'l.cook': 'Cookies', 'l.cfg': 'Configurar cookies'
   },
   en: {
     'meta.title': 'Centre Únic · Skin physiology centre · Blanes',
@@ -163,6 +163,6 @@ window.DICT = {
     'vi.wa': 'https://wa.me/34635857503?text=Hello%20Centre%20%C3%9Anic%2C%20I%27d%20like%20to%20book%20an%20appointment',
     'alt.onco': 'Oncology aesthetics facial treatment', 'alt.montse': 'Montse Gayete with products from the centre', 'alt.team': 'The Centre Únic team',
     'foot': 'Centre Únic · Skin physiology centre · Blanes',
-    'l.avis': 'Legal notice', 'l.priv': 'Privacy', 'l.cook': 'Cookies'
+    'l.avis': 'Legal notice', 'l.priv': 'Privacy', 'l.cook': 'Cookies', 'l.cfg': 'Cookie settings'
   }
 };

@@ -1,0 +1,33 @@
+/* Avís de cookies i mapa amb consentiment · salvia, eucaliptus i sorra */
+:root{--cc-bg:#f8f3eb;--cc-ink:#2e4a3f;--cc-mute:#6d7a70;--cc-line:rgba(46,74,63,.14);--cc-pri:#2e4a3f;--cc-pri-ink:#f8f3eb;--cc-acc:#c9876b;}
+.cc{position:fixed;left:16px;bottom:16px;z-index:200;width:min(450px,calc(100vw - 32px));max-height:calc(100vh - 32px);overflow:auto;padding:22px 22px 18px;border-radius:16px;background:var(--cc-bg);color:var(--cc-ink);box-shadow:0 24px 70px -24px rgba(20,35,28,.55),0 0 0 1px var(--cc-line);font:400 .92rem/1.55 'Instrument Sans',system-ui,sans-serif;opacity:0;translate:0 14px;transition:opacity .45s cubic-bezier(.22,1,.36,1),translate .55s cubic-bezier(.22,1,.36,1)}
+.cc.is-on{opacity:1;translate:0 0}
+.cc[hidden],.cc__view[hidden]{display:none}
+.cc__t{font-family:'Castoro',Georgia,serif;font-size:1.25rem;line-height:1.2;margin:0 0 .45rem}
+.cc__p{color:var(--cc-mute);margin:0}
+.cc__btns{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.1rem}
+.cc__b{flex:1 1 auto;padding:.72em 1.05em;border:0;border-radius:8px;background:transparent;color:var(--cc-ink);box-shadow:inset 0 0 0 1.5px rgba(46,74,63,.35);font:500 .88rem/1.2 'Instrument Sans',system-ui,sans-serif;cursor:pointer;transition:background-color .25s,color .25s}
+.cc__b--pri{background:var(--cc-pri);color:var(--cc-pri-ink);box-shadow:none}
+.cc__b:hover{background:var(--cc-acc);color:#fff;box-shadow:none}
+.cc__b:focus-visible,.cc__pol:focus-visible{outline:2px solid var(--cc-acc);outline-offset:2px}
+.cc__pol{display:inline-block;margin-top:.8rem;font-size:.8rem;color:var(--cc-mute)}
+.cc__cat{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;padding:.85rem 0;border-top:1px solid var(--cc-line)}
+.cc__cat b{font-weight:600}
+.cc__cat p{margin:.2rem 0 0;color:var(--cc-mute);font-size:.84rem}
+.cc__always{flex:none;font-size:.76rem;color:var(--cc-mute);white-space:nowrap;padding-top:.15rem}
+.cc__sw{position:relative;flex:none;cursor:pointer;padding-top:.1rem}
+.cc__sw input{position:absolute;opacity:0;width:1px;height:1px}
+.cc__sw i{display:block;width:44px;height:25px;border-radius:99px;background:rgba(46,74,63,.25);position:relative;transition:background-color .25s}
+.cc__sw i::after{content:"";position:absolute;top:3px;left:3px;width:19px;height:19px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:translate .25s cubic-bezier(.22,1,.36,1)}
+.cc__sw input:checked+i{background:var(--cc-pri)}
+.cc__sw input:checked+i::after{translate:19px 0}
+.cc__sw input:focus-visible+i{outline:2px solid var(--cc-acc);outline-offset:2px}
+.cc__sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:600px){.cc{left:8px;right:8px;bottom:8px;width:auto;padding:18px 18px 14px}}
+
+.cc-map{position:relative;width:100%;max-width:560px;aspect-ratio:16/10;margin-top:2rem;border-radius:10px;overflow:hidden;background:rgba(46,74,63,.06);box-shadow:inset 0 0 0 1px rgba(46,74,63,.14)}
+.cc-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cc-map__ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:1.5rem;text-align:center;color:#6d7a70;font-size:.92rem}
+.cc-map__ph .cc__b{flex:none}
+.cc-open{background:none;border:0;padding:0;font:inherit;color:var(--cc-mute);text-decoration:underline;cursor:pointer}
+@media (prefers-reduced-motion:reduce){.cc{transition:none}}

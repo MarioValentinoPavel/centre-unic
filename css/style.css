@@ -96,6 +96,11 @@ em{font-style:italic}
 .badge i{width:10px;height:10px;border-radius:50%;background:var(--sage);box-shadow:0 0 0 4px rgba(157,179,154,.3)}
 .badge:hover{background:rgba(157,179,154,.18)}
 .acc .acc__g{padding:0;max-width:none}
+.acc__body{padding:0 0 1.5rem 2.6rem;max-width:39rem;color:var(--mute)}
+.acc .acc__body p{padding:0;max-width:none}
+.acc__body ul{list-style:none;margin-top:.9rem}
+.acc__body li{padding:.65rem 0;border-top:1px solid rgba(46,74,63,.1);font-size:.95rem;line-height:1.55}
+.acc__body b{color:var(--euca);font-weight:600}
 .acc__g{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);font-weight:600;margin:1.8rem 0 .5rem}
 .acc__g:first-child{margin-top:0}
 .acc details:has(+ .acc__g){border-bottom:1px solid rgba(46,74,63,.15)}
@@ -115,6 +120,7 @@ em{font-style:italic}
 @media (max-width:900px){
   .nav__links{display:none}
   .nav{padding:.8rem 12px}
+  .acc__body{padding-left:0}
   .nav__logo{white-space:nowrap;font-size:1.05rem}
   .nav__end{gap:.4rem}
   .nav__cta{box-shadow:inset 0 0 0 1px rgba(239,230,216,.4);padding:.55em .9em;font-size:.84rem}
