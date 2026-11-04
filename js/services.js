@@ -21,10 +21,10 @@ Object.assign(window.DICT.ca, {
 <ul><li><b>Què mirem.</b> El biotip de la pell (seca, grassa o mixta), com està ara (hidratació, sensibilitat, taques, lesions), els cosmètics que fas servir, els teus hàbits i com et sents.</li>
 <li><b>Què t'emportes.</b> Un pla fet a mida: què farem a cabina i cada quant, quina rutina has de seguir a casa i què has de deixar de fer servir.</li>
 <li><b>Per a qui.</b> Per a tothom que vulgui cuidar-se la pell amb criteri, tingui o no un problema concret.</li></ul>`,
-  'x6': `<p>El nostre programa facial de reafirmació, pensat per a pells que han perdut to, fermesa i llum.</p>
+  'x6': `<p>El nostre programa facial de reafirmació: vuit sessions en unes quatre setmanes, fetes només amb les mans, sense agulles i sense temps de recuperació.</p>
 <ul><li><b>Per a qui.</b> Pells amb flacciditat, un contorn facial menys definit, aspecte cansat o les primeres arrugues.</li>
-<li><b>Com ho fem.</b> Sessions progressives a cabina que treballen el to i la fermesa de la cara, combinades amb una rutina a casa perquè l'efecte duri.</li>
-<li><b>Què pots esperar.</b> Una pell més ferma, uniforme i lluminosa a mesura que avancen les sessions. A l'estudi de la pell et diem quantes en necessites.</li></ul>`,
+<li><b>Com ho fem.</b> Sessions 1 i 2: estudi i preparació de la pell. Sessions 3 i 4: redefinició del contorn (mandíbula, pòmuls i zona dels ulls). Sessions 5 i 6: lifting manual per guanyar fermesa. Sessions 7 i 8: consolidació del resultat.</li>
+<li><b>Què pots esperar.</b> Una pell més ferma, lluminosa i redefinida, amb un aspecte natural.</li></ul>`,
   'x7': `<p>Envellir amb consciència: no es tracta d'aturar el temps, sinó d'allargar la joventut de la pell i que envelleixi sana.</p>
 <ul><li><b>Per a qui.</b> Pells madures o que comencen a mostrar arrugues, sequedat, pèrdua d'elasticitat o falta de llum.</li>
 <li><b>Com ho fem.</b> Treballem la hidratació profunda, la nutrició, l'oxigenació i la regeneració de la pell amb la línia Natural WellAging de The Natural One. També tenim en compte l'estat emocional, que es reflecteix a la pell.</li>
@@ -68,10 +68,10 @@ Object.assign(window.DICT.es, {
 <ul><li><b>Qué miramos.</b> El biotipo de la piel (seca, grasa o mixta), cómo está ahora (hidratación, sensibilidad, manchas, lesiones), los cosméticos que usas, tus hábitos y cómo te sientes.</li>
 <li><b>Qué te llevas.</b> Un plan a medida: qué haremos en cabina y cada cuánto, qué rutina seguir en casa y qué dejar de usar.</li>
 <li><b>Para quién.</b> Para cualquier persona que quiera cuidar su piel con criterio, tenga o no un problema concreto.</li></ul>`,
-  'x6': `<p>Nuestro programa facial de reafirmación, pensado para pieles que han perdido tono, firmeza y luz.</p>
+  'x6': `<p>Nuestro programa facial de reafirmación: ocho sesiones en unas cuatro semanas, hechas solo con las manos, sin agujas y sin tiempo de recuperación.</p>
 <ul><li><b>Para quién.</b> Pieles con flacidez, un contorno facial menos definido, aspecto cansado o las primeras arrugas.</li>
-<li><b>Cómo lo hacemos.</b> Sesiones progresivas en cabina que trabajan el tono y la firmeza del rostro, combinadas con una rutina en casa para que el efecto dure.</li>
-<li><b>Qué puedes esperar.</b> Una piel más firme, uniforme y luminosa a medida que avanzan las sesiones. En el estudio de la piel te decimos cuántas necesitas.</li></ul>`,
+<li><b>Cómo lo hacemos.</b> Sesiones 1 y 2: estudio y preparación de la piel. Sesiones 3 y 4: redefinición del contorno (mandíbula, pómulos y zona de los ojos). Sesiones 5 y 6: lifting manual para ganar firmeza. Sesiones 7 y 8: consolidación del resultado.</li>
+<li><b>Qué puedes esperar.</b> Una piel más firme, luminosa y redefinida, con un aspecto natural.</li></ul>`,
   'x7': `<p>Envejecer con consciencia: no se trata de parar el tiempo, sino de alargar la juventud de la piel y que envejezca sana.</p>
 <ul><li><b>Para quién.</b> Pieles maduras o que empiezan a mostrar arrugas, sequedad, pérdida de elasticidad o falta de luz.</li>
 <li><b>Cómo lo hacemos.</b> Trabajamos la hidratación profunda, la nutrición, la oxigenación y la regeneración de la piel con la línea Natural WellAging de The Natural One. También tenemos en cuenta el estado emocional, que se refleja en la piel.</li>
@@ -115,10 +115,10 @@ Object.assign(window.DICT.en, {
 <ul><li><b>What we look at.</b> Your skin type (dry, oily or combination), its current state (hydration, sensitivity, spots, blemishes), the products you use, your habits and how you feel.</li>
 <li><b>What you take away.</b> A tailored plan: what we will do in the treatment room and how often, which routine to follow at home and what to stop using.</li>
 <li><b>Who it's for.</b> Anyone who wants to look after their skin properly, whether or not they have a specific problem.</li></ul>`,
-  'x6': `<p>Our facial firming programme, designed for skin that has lost tone, firmness and radiance.</p>
+  'x6': `<p>Our facial firming programme: eight sessions over about four weeks, done by hand only, with no needles and no downtime.</p>
 <ul><li><b>Who it's for.</b> Skin with sagging, a less defined facial contour, a tired look or first wrinkles.</li>
-<li><b>How we do it.</b> Progressive sessions in the treatment room that work on facial tone and firmness, combined with a home routine so the effect lasts.</li>
-<li><b>What to expect.</b> Firmer, more even and more radiant skin as the sessions go on. At your skin study we'll tell you how many you need.</li></ul>`,
+<li><b>How we do it.</b> Sessions 1 and 2: skin study and preparation. Sessions 3 and 4: redefining the contour (jaw, cheekbones and eye area). Sessions 5 and 6: manual lifting for firmness. Sessions 7 and 8: consolidating the result.</li>
+<li><b>What to expect.</b> Firmer, more radiant and better defined skin, with a natural look.</li></ul>`,
   'x7': `<p>Ageing consciously: it's not about stopping time, but about keeping skin young for longer and helping it age healthily.</p>
 <ul><li><b>Who it's for.</b> Mature skin, or skin starting to show wrinkles, dryness, loss of elasticity or dullness.</li>
 <li><b>How we do it.</b> We work on deep hydration, nourishment, oxygenation and regeneration with The Natural One's Natural WellAging line. We also take your emotional state into account, as it shows in the skin.</li>

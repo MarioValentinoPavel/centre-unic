@@ -1,3 +1,5 @@
 assets/**/_*.txt
 assets/web/*.html
 *.tmp
+assets/raw/
+assets/test/
